@@ -8,7 +8,7 @@ registerNuiCallback('HideContainer', () => {
     SetNuiFocus(false);
 });
 
-RegisterCommand('test', () => {
+RegisterCommand('template', () => {
     SetNuiFocus(true, true);
     sendNuiMessage('ShowContainer', 'Hello!!');
 }, false);
